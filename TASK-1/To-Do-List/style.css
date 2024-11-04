@@ -9,8 +9,7 @@ body
   padding: 33px;
   text-align: center;
   background-color: #fff;
-  margin-left: 33%;
-  margin-top: 5px;
+  margin: 0px auto;
 }
 
 input {
@@ -22,10 +21,31 @@ input {
 
 button{
   width: 60px;
-  height: 40px;
+  height: 35px;
   background-color: rgb(4, 29,29);
   color: white;
   border-radius: 2px;
   border: none;
   outline: none;
 }
+
+button:hover{
+  background-color: burlywood;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+ .text ul{
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
